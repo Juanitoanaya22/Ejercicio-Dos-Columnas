@@ -1,0 +1,98 @@
+* { 
+    margin:0;
+    padding:0;
+  }
+  a:link, a:visited, a:hover, a:active {
+    color:#cfc;
+    font-size:1em;
+  }
+  body {
+    background:rgba(0, 0, 0, 0.753);
+    background-image: url("img");
+    font-family:verdana;
+  }
+  h1 {
+    color:#00a;
+    font-size:1.8em;
+    padding-bottom:.5em; 
+  }
+  img {
+    height:auto;
+    margin-bottom:.5em;
+    margin-top:.2em;
+    max-width:100%;
+  }
+  li {
+    margin-left:1.3em;
+    padding-bottom:.3em;
+    padding-right:.2em;
+  }
+  p {
+    font-size:1em;
+    padding-bottom:.5em; 
+  }
+  #cabecera {
+    background-color:rgb(4, 0, 44);
+    color:rgb(17, 209, 223);
+    padding:2%;
+  }
+  /* columnas concentra contenido y menu  */
+  #columnas {
+    background-color:#ddd;
+    overflow:hidden;
+    padding-bottom:2%;
+  }
+  /* contenedor concentra todas las divisiones */
+  #contenedor {
+    margin: 10px auto;
+    width:98%;
+  }
+  /* contenido width=anchura, height=altura y float= lado
+  max-width para cuando se hace chiquita 
+  pagina para ver como estan acomodados https://programmerclick.com/article/75431857880/*/
+  #contenido {
+    background-color:rgb(255, 255, 255);
+    float:right;
+    margin-bottom:-32767px;
+    max-width:-moz-calc(92% - 120px);
+    max-width:-webkit-calc(92% - 120px);
+    max-width:calc(92% - 120px);
+    padding:2%;
+    padding-bottom:32767px;
+    width:80%;
+  }
+  #contenido a{
+    color: rgba(37, 20, 114, 0.699);
+  }
+  /*top, left y position son para acomodar los puntos*/
+  #contenido ul{  
+    width:60%;
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+  /* menus width=anchura, height=altura y float= lado 
+  line-height para el interlineado
+  pagina para ver como estan acomodados https://programmerclick.com/article/75431857880/*/
+  #menu {
+    background-color:rgb(138, 136, 165);
+    color: rgb(2, 2, 32);
+    float:left;
+    margin-bottom:-32767px;
+    min-width: 120px;
+    padding:2%;
+    padding-bottom:32767px;
+    width:12%;
+    line-height : 30px;
+  }
+  #menu a{
+    color: rgb(255, 255, 255);
+    font-size:19px;
+  }
+  #pie { 
+    background-color:rgb(155, 168, 245);
+    clear:both;
+    color:rgb(33, 18, 99);
+    padding:2%;
+    text-align:center;
+  }
